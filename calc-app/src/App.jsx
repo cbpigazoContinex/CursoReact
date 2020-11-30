@@ -1,14 +1,14 @@
 // Importación
 import React from 'react';
 import './App.css';
+import Result from './components/Result';
 
 // Generación de la función del unmountComponentAtNode
 const App = () =>{
     console.log("Renderización de la app")
     return (
         <main  className='react-calculator'>
-            <div className='result'>
-            </div>
+            <Result></Result>
             <div className='numbers'>
                 <button>1</button>
                 <button>2</button>
