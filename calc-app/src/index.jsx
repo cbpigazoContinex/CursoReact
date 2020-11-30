@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import  App from './App';
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -10,7 +8,5 @@ import reportWebVitals from './reportWebVitals';
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );
-ReactDOM.render(<h1> Hola Mundo</h1>,
+ReactDOM.render(<App> Hola Mundo</App>,
   document.getElementById('root'))
-
-reportWebVitals();
